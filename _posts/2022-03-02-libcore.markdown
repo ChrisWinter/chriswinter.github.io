@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "libcore"
+date:   2022-03-02 18:00:00 -0600
+categories: programming libcore
+---
+To get things started off on the right foot here, I've re-published on GitHub a
+library of fundamental data structures and algorithms that I wrote in C about
+10 years ago as a showpiece when interviewing for my current job. The library
+is called **[libcore][1]** since it's a library of core data structures and
+algorithms.
+
+Working on [libcore][1] was a great experience. If you want to better
+understand the typical data structures and algorithms provided by modern
+programming langagues, implementing them yourself is an excellent way
+to do that. It's also an opportunity to learn a new programming language
+while you're at it.
+
+I made extensive use of [Introduction to Algorithms][2] and [The Algorithm
+Design Manual][3] when writing [libcore][1]. They are classics in the field of
+computer science, and definitely worth having in your collection. The 3rd
+edition of [The Algorithm Design Manual][3] is coming out in June, 2022.  Get
+that one if you can because the 2nd edition has quite a few errors in it.
+
+[1]: https://github.com/ChrisWinter/libcore
+[2]: https://www.amazon.com/Introduction-Algorithms-fourth-Thomas-Cormen/dp/026204630X
+[3]: https://www.amazon.com/Algorithm-Design-Manual-Computer-Science/dp/3030542556

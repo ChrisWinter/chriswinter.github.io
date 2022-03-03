@@ -33,7 +33,7 @@ table {
 /*** Basics ***/
 body {
 	font-family: Verdana, serif;
-	font-size: 13px;
+	font-size: 16px;
 	line-height: 1.7;
 }
 
@@ -77,15 +77,15 @@ acronym, abbr {
 
 
 h1 {
-	font-size: 17px;
+	font-size: 22px;
 	margin: 0 0 10px 0;
 }
 h2 {
-	font-size: 15px;
+	font-size: 20px;
 	margin: 0 0 10px 0;
 }
 h3 {
-	font-size: 14px;
+	font-size: 18px;
 	margin: 0 0 10px 0;
 }
 
@@ -109,14 +109,15 @@ h3 {
 
 /*** Structure ***/
 #page {
-	width: 500px;
+	width: 800px;
 	margin: 0 auto;
 	position: relative;
 }
 
 #header {
-	width: 500px;
+	width: 750px;
 	margin: 40px auto 50px auto;
+	border-bottom: 1px solid #073642;
 }
 #header h1 {
 	font-size: 32px;
@@ -127,7 +128,7 @@ h3 {
 }
 
 #footer {
-	width: 500px;
+	width: 750px;
 	margin: 50px auto 20px auto;
 	padding-top: 10px;
 	font-size: 0.85em;
@@ -135,7 +136,7 @@ h3 {
 }
 
 #content {
-	width: 500px;
+	width: 750px;
 	margin: 0 auto;
 }
 
@@ -167,7 +168,7 @@ article {
 }
 
 article h1 {
-	font-size: 17px;
+	font-size: 20px;
 	margin: 0 0 10px 0;
 }
 article h1 a {
