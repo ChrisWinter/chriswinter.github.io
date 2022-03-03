@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta charset="UTF-8">
+  <title>Chris Winter's Website</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link href="/assets/css/style.css" rel="stylesheet">
+  <link href="/assets/css/colors-dark.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <h1><a href="/">Chris Winter's Website</a></h1>
+    <p>Programming, science, math, finance</p>
+  </header>
+
+
+
+  <div id="page">
+
+
+
+    <div id="sidebar">
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+
+    <div id="content">
+      
+
+	<article class="post">
+
+		
+			<h1><a href="/2022/03/03/libcore/">libcore</a></h1>
+		
+
+		<div class="post-content">
+<p>To get things started off on the right foot here, I’ve re-published on GitHub a
+library of fundamental data structures and algorithms that I wrote in C about
+10 years ago as a showpiece when interviewing for my current job. The library
+is called <strong><a href="https://github.com/ChrisWinter/libcore">libcore</a></strong> since it’s a library of core data structures and
+algorithms.</p>
+
+<p>Working on <a href="https://github.com/ChrisWinter/libcore">libcore</a> was a great experience. If you want to better
+understand the typical data structures and algorithms provided by modern
+programming langagues, implementing them yourself is an excellent way
+to do that. It’s also an opportunity to learn a new programming language
+while you’re at it.</p>
+
+<p>I made extensive use of <a href="https://www.amazon.com/Introduction-Algorithms-fourth-Thomas-Cormen/dp/026204630X">Introduction to Algorithms</a> and <a href="https://www.amazon.com/Algorithm-Design-Manual-Computer-Science/dp/3030542556">The Algorithm
+Design Manual</a> when writing <a href="https://github.com/ChrisWinter/libcore">libcore</a>. They are classics in the field of
+computer science, and definitely worth having in your collection. The 3rd
+edition of <a href="https://www.amazon.com/Algorithm-Design-Manual-Computer-Science/dp/3030542556">The Algorithm Design Manual</a> is coming out in June, 2022.  Get
+that one if you can because the 2nd edition has quite a few errors in it.</p>
+
+</div>
+
+	</article>
+
+
+
+
+
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+  <footer id="footer">
+    <p class="copyright">Copyright © 2022 Chris Winter</p>
+  </footer>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+  </script>
+
+
+
+</body>
+</html>
